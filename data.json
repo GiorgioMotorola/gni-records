@@ -1,0 +1,192 @@
+[
+      {
+        "id": 1,
+        "img": "./img/mirrorreaper.jpg",
+        "name": "Bell Witch",
+        "album": "Mirror Reaper",
+        "genre": "Metal",
+        "price": "$19"
+      },
+
+      {
+        "id": 2,
+        "img": "img/blacksaint.jpg",
+        "name": "Charles Mingus",
+        "album": "The Black Saint and the Sinner Lady",
+        "genre": "Jazz",
+        "price": "$25"
+      },
+
+      {
+        "id": 3,
+        "img": "img/forthoseofyou.jpg",
+        "name": "Huerco S.",
+        "album": "For Those Of You Who Have Never (And Also Those Who Have)",
+        "genre": "Ambient",
+        "price": "$24"
+      },
+
+      {
+        "id": 4,
+        "img": "img/infamous.png",
+        "name": "Mobb Deep",
+        "album": "The Infamous",
+        "genre": "Hip Hop",
+        "price": "$22"
+      },
+
+      {
+        "id": 5,
+        "img": "img/steadydiet.jpg",
+        "name": "Fugazi",
+        "album": "Steady Diet of Nothing",
+        "genre": "Post Punk",
+        "price": "$18"
+      },
+
+      {
+        "id": 6,
+        "img": "img/slowdive.jpg",
+        "name": "Slowdive",
+        "album": "Everything is Alive",
+        "genre": "Dream Pop",
+        "price": "$20"
+      },
+
+      {
+        "id": 7,
+        "img": "img/everything.jpg",
+        "name": "Everything Everything",
+        "album": "Get To Heaven",
+        "genre": "Art Pop",
+        "price": "$27"
+      },
+
+      {
+        "id": 8,
+        "img": "img/crj.png",
+        "name": "Carly Rae Jepsen",
+        "album": "E•MO•TION",
+        "genre": "Pop",
+        "price": "$26"
+      },
+
+      {
+        "id": 9,
+        "img": "img/ugk.jpg",
+        "name": "UGK",
+        "album": "Ridin' Dirty",
+        "genre": "Hip Hop",
+        "price": "$28"
+      },
+
+      {
+        "id": 10,
+        "img": "img/pcl.jpg",
+        "name": "New Order",
+        "album": "Power, Corruption & Lies",
+        "genre": "New Wave",
+        "price": "$19"
+      },
+
+      {
+        "id": 11,
+        "img": "./img/scarface.jpg",
+        "name": "Scarface",
+        "album": "The Diary",
+        "genre": "Hip Hop",
+        "price": "$22"
+      },
+
+      {
+        "id": 12,
+        "img": "img/remain.jpg",
+        "name": "Talking Heads",
+        "album": "Remain in Light",
+        "genre": "Post Punk",
+        "price": "$20"
+      },
+
+      {
+        "id": 13,
+        "img": "img/tusk.png",
+        "name": "Fleetwood Mac",
+        "album": "Tusk",
+        "genre": "Rock",
+        "price": "$21"
+      },
+
+      {
+        "id": 14,
+        "img": "img/letitbe.jpg",
+        "name": "The Replacements",
+        "album": "Let It Be",
+        "genre": "Alt Rock",
+        "price": "$18"
+      },
+
+      {
+        "id": 15,
+        "img": "img/pearl.jpg",
+        "name": "Brian Eno & Harold Budd",
+        "album": "The Pearl",
+        "genre": "Ambient",
+        "price": "$25"
+      },
+
+      {
+        "id": 16,
+        "img": "img/marquee.jpg",
+        "name": "Television",
+        "album": "Marquee Moon",
+        "genre": "Post Punk",
+        "price": "$18"
+      },
+
+      {
+        "id": 17,
+        "img": "img/bigstar.jpg",
+        "name": "Big Star",
+        "album": "Radio City",
+        "genre": "Power Pop",
+        "price": "$20"
+      },
+
+      {
+        "id": 18,
+        "img": "img/dds.jpg",
+        "name": "death's dynamic shroud",
+        "album": "VIRTUAL UTOPIA EXPERIENCE",
+        "genre": "Vaporwave",
+        "price": "$23"
+      },
+
+      {
+        "id": 19,
+        "img": "img/milesdsilent.jpg",
+        "name": "Miles Davis",
+        "album": "In a Silent Way",
+        "genre": "Jazz",
+        "price": "$24"
+      },
+
+      {
+        "id": 20,
+        "img": "img/enforced.jpg",
+        "name": "Enforced",
+        "album": "War Remains",
+        "genre": "Metal",
+        "price": "$20"
+      },
+
+      {
+        "id": 21,
+        "img": "img/mcphee.jpg",
+        "name": "Joe McPhee",
+        "album": "Nation Time",
+        "genre": "Jazz",
+        "price": "$25"
+      }
+
+
+]
