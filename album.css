@@ -1,0 +1,60 @@
+* {
+    margin: 0%;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    text-decoration: none;
+    list-style: none;
+
+}
+
+body {
+    background-color: rgb(47, 45, 45);
+}
+
+.artist-album-box {
+    border-color: rgb(127, 132, 132);
+    background-color: black;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.genre-price {
+    border-color: rgb(127, 132, 132);
+    background-color: black;
+    color: grey;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    gap: 100px;
+    
+}
+
+#album-name {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: x-large;
+    color: #efefef;
+}
+
+
+#artist-name {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: x-large;
+    color: #EBE114;
+}
+
+.album-img img {
+    margin-top: 100px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}

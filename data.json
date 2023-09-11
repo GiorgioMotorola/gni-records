@@ -5,7 +5,8 @@
         "name": "Bell Witch",
         "album": "Mirror Reaper",
         "genre": "Metal",
-        "price": "$19"
+        "price": "$19",
+        "year": "2017"
       },
 
       {
@@ -14,7 +15,8 @@
         "name": "Charles Mingus",
         "album": "The Black Saint and the Sinner Lady",
         "genre": "Jazz",
-        "price": "$25"
+        "price": "$25",
+        "year": "2018"
       },
 
       {
@@ -23,7 +25,8 @@
         "name": "Huerco S.",
         "album": "For Those Of You Who Have Never (And Also Those Who Have)",
         "genre": "Ambient",
-        "price": "$24"
+        "price": "$24",
+        "year": "2019"
       },
 
       {
