@@ -1,5 +1,5 @@
 * {
-    margin: 0;
+    margin: 0%;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Montserrat', sans-serif;
@@ -95,7 +95,7 @@
     border-color: #efefef;
     padding: 20px;
     text-align: center;
-    margin: 10px;
+    margin: 1%;
     transition: background-color 0.2s, transform 0.2s;
     display: flex;
     justify-content: center;
@@ -155,7 +155,7 @@
 
 .hours h3 {
     margin-top: 30px;
-    
+    background-color: #efefef;
 }
 
 input[type=checkbox] {
