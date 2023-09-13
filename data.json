@@ -16,7 +16,11 @@
         "album": "The Black Saint and the Sinner Lady",
         "genre": "Jazz",
         "price": "$25",
-        "year": "2018"
+        "year": "2018",
+        "tracks": ["1. Track A – Solo Dancer - 6:36",
+        "2. Track B – Duet Solo Dancers - 6:43",
+        "3. Track C – Group Dancers - 7:20",
+        "4. Mode D – Trio and Group Dancers - 18:37"]
       },
 
       {
