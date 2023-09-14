@@ -10,26 +10,33 @@
     <title>Document</title>
 </head>
 <body>
-<div class="album-box">
+    <nav id="navbar">
+        <div class="logo">GNI RECORDS</div>
+        <ul class="nav-links">
+          <input type="checkbox" id="checkbox_toggle" />
+          <label for="checkbox_toggle" class="hamburger">&#9776;</label>
+          <div class="menu">
+            <li><a href="/">Home</a></li>
+            <li><a href="/">Stock</a></li>
+            <li><a href="/">Stop By</a></li>
 
+          </div>
+        </ul>
+      </nav>
+<div class="album-box">
     <div class="artist-album-box">
         <h4 id="artist-name"></h4>
         <h4 id="album-name"></h4>
-    </div>
-    <div class="genre-price">
         <h5 id="album-genre-price"></h5>
-        <h5 id="album-year"></h5>
+            <h5 id="album-year"></h5>
     </div>
-    <div class="album-track">
-        <div class="album-img">
+    <div class="album-info">
             <img id="album-image" src="" alt="">
-        </div>
-        <div class="tracks">
             <ul id="track-list"></ul>
-        </div>
-    </div>
-        
+            
+    </div>    
 </div>
-    <script src="script.js"></script>
+    <script src="albumScript.js"></script>
+
 </body>
 </html>

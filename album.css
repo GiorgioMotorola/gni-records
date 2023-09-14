@@ -6,77 +6,137 @@
     text-transform: uppercase;
     text-decoration: none;
     list-style: none;
-
 }
 
 body {
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+}
+
+ #navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px;
+    background-color: rgb(0, 0, 0);
+    color: #fff;
+  }
+  
+  .nav-links a {
+    color: #fff;
+  }
+  
+  .logo {
+    font-size: 32px;
+  }
+  
+  .menu li{
+    display: inline-block;
+    position: relative;
+    color: #EBE114;
+  }
+  
+  .menu li::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #EBE114;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+  }
+  
+  .menu li:hover:after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+  }
+  
+  .menu li {
+    padding: 5px 14px;
+  }
+  
+
+input[type=checkbox] {
+    display: none;
+  } 
+  
+
+  .hamburger {
+    display: none;
+    font-size: 24px;
+    user-select: none;
+  }
+  
+
+.album-box {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+    margin-top: 7%;
+    color: white;
 }
 
 .artist-album-box {
-    border-color: rgb(127, 132, 132);
-    background-color: black;
-    padding: 20px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+    text-align: center;
+    margin: auto;
+    width: 50%;
+
+    padding: 10px;
+    
 }
 
-.genre-price {
-    color: #EBE114;
-    background-color: black;
+.album-info {
     display: flex;
-    justify-content: center;
-    flex-direction: row;
-    text-align: right;
-    gap: 50px;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    width: 50%;
+
+    padding: 10px;
 }
 
 #track-list {
-    color: rgb(0, 0, 0);
-    background-color: #efefef;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-    padding: 150px;
-    box-shadow: 1px 5px 18px #e5e0e0;
-    margin-top: 100px;
+    padding: 50px;
 }
 
-.album-track {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
+#album-image {
+    width: 300px;
+    height: 300px;
+    
 }
 
-
-#album-name {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: x-large;
-    color: #efefef;
-}
-
-#artist-name {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: x-large;
-    color: #EBE114;
-}
-
-.album-img {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.album-img img {
-    margin-top: 90px;
-    display: block;
-    width: 100%;
-    max-width: 500px;
-    height: auto;
-}
+@media (max-width: 768px) {
+    .menu {
+       display:none;
+       position: absolute;
+       background-color:#212123;
+       right: 0;
+       left: 0;
+       text-align: center;
+       padding: 16px 0;
+     }
+   
+     .menu li:hover {
+       display: inline-block;
+       background-color: #212123;
+       transition: 0.3s ease;
+     }
+   
+     .menu li + li {
+       margin-top: 12px;
+     }
+   
+     input[type=checkbox]:checked ~ .menu {
+       display: block;
+     }
+   
+     .hamburger {
+       display: block;
+     }
+   
+   }
