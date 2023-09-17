@@ -94,9 +94,19 @@
         "name": "UGK",
         "album": "Ridin' Dirty",
         "genre": "Hip Hop",
-        "price": "$28"
+        "price": "$28",
+        "year": "2019",
+        "tracks": [ "1. A Sea Of Love - 7:18",
+        "2. Lifeblood (Naïve Melody) - 8:13",
+        "3. Hear Me Out - 6:07",
+        "4. Kraanvogel - 5:39",
+        "5. On The Embankment - 5:57",
+        "6. Marked For Life - 3:41",
+        "7. Cubist Camouflage - 2:41",
+        "8. Promises Of Fertility - 6:56",
+        "9. The Sacred Dance - 6:07" ]   
       },
-
+      
       {
         "id": 10,
         "img": "img/pcl.jpg",

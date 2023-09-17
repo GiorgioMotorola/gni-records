@@ -110,6 +110,19 @@ input[type=checkbox] {
     
 }
 
+#related-albums {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  gap: 50px;
+}
+
+#related-albums img {
+  max-width: 200px;
+  max-height: 200px;
+  
+}
+
 @media (max-width: 768px) {
     .menu {
        display:none;

@@ -121,12 +121,18 @@ input[type=checkbox] {
     color: black !important;
 }
 
+
 .hours-container {
     position: relative; 
     display: flex;
     align-items: center;
     justify-content: center;
     margin-top: 100px;
+}
+
+.hours-container img {
+    width: 100%;
+    height: auto;
 }
 
 .hours {

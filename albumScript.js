@@ -1,3 +1,46 @@
+function displayRelatedAlbums(data, genre, currentId) {
+    const relatedAlbums = data.filter(item => item.genre === genre && parseInt(item.id) !== parseInt(currentId));
+
+    if (relatedAlbums.length > 0) {
+        const relatedAlbumsContainer = document.getElementById('related-albums');
+        relatedAlbumsContainer.innerHTML = '';
+
+        relatedAlbums.forEach(relatedAlbum => {
+            const albumCard = document.createElement('div');
+            albumCard.classList.add('album-card');
+
+            const albumLink = document.createElement('a');
+            albumLink.href = `album.html?id=${relatedAlbum.id}`; 
+            albumLink.classList.add('album-link'); 
+
+            albumLink.addEventListener('click', (e) => {
+                e.preventDefault(); 
+                window.location.href = albumLink.href;
+            });
+
+            const albumImage = document.createElement('img');
+            albumImage.src = relatedAlbum.img;
+
+            const albumName = document.createElement('p');
+            albumName.textContent = relatedAlbum.album;
+
+            const artistName = document.createElement('p');
+            artistName.textContent = relatedAlbum.name;
+
+            albumLink.appendChild(albumImage);
+            albumLink.appendChild(albumName);
+            albumLink.appendChild(artistName);
+
+            albumCard.appendChild(albumLink);
+
+            relatedAlbumsContainer.appendChild(albumCard);
+        });
+    } else {
+        console.log('No related albums found for this genre.');
+    }
+}
+
+
 document.addEventListener('DOMContentLoaded', () => {
     const urlParams = new URLSearchParams(window.location.search);
     const id = urlParams.get('id');
@@ -24,6 +67,10 @@ document.addEventListener('DOMContentLoaded', () => {
                         li.textContent = track;
                         trackList.appendChild(li);
                     });
+
+                    displayRelatedAlbums(data, item.genre, id);
+
+
                 } else {
                     console.error(`Album ${id} not found`);
                 }
