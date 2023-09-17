@@ -85,9 +85,7 @@ input[type=checkbox] {
     text-align: center;
     margin: auto;
     width: 50%;
-
     padding: 10px;
-    
 }
 
 .album-info {
@@ -96,7 +94,6 @@ input[type=checkbox] {
     align-items: center;
     margin: auto;
     width: 50%;
-
     padding: 10px;
 }
 
@@ -115,12 +112,24 @@ input[type=checkbox] {
   flex-direction: row;
   justify-content: start;
   gap: 50px;
+  text-align: center;
+
 }
 
 #related-albums img {
   max-width: 200px;
-  max-height: 200px;
-  
+  max-height: 200px; 
+  margin-top: 30px;
+}
+
+#related-albums p {
+  text-decoration: none;
+  color: white;
+}
+
+.related-albums-container {
+  border-top: #fff;
+  border-style: solid;
 }
 
 @media (max-width: 768px) {
@@ -152,4 +161,23 @@ input[type=checkbox] {
        display: block;
      }
    
+     .album-box {
+      display: flex;
+      justify-content: space-evenly;
+      flex-direction: column;
+     }
+
+  #artist-name, #album-name, #album-genre-price, #album-year {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.album-info {
+  display: flex;
+  justify-content: start;
+  flex-direction: column;
+}
+
+
    }
