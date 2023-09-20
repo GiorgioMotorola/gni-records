@@ -69,68 +69,68 @@ input[type=checkbox] {
     user-select: none;
   }
   
+  /* body */
 
-.album-box {
-    display: flex;
-    justify-content: space-evenly;
-    flex-direction: row;
-    margin: auto;
-    width: 50%;
-    padding: 10px;
-    margin-top: 7%;
+  .artist-album-container {
     color: white;
-}
+  }
 
-.artist-album-box {
-    text-align: center;
-    margin: auto;
-    width: 50%;
-    padding: 10px;
-}
+  #artist-name {
+    color: #EBE114;
+    font-size: 20px;
+    margin-top: 10px;
+  }
 
-.album-info {
+  .genre-price-year-container {
+    color: #c6c3c3;
     display: flex;
-    flex-direction: column;
+    margin-top: 10px;
+  }
+
+
+
+  #album-year {
+    display: none;
+  }
+
+  .album-info {
+    display: flex;
     align-items: center;
-    margin: auto;
-    width: 50%;
-    padding: 10px;
-}
+  }
 
-#track-list {
+  #track-list {
+    color: white;
+    background-color: #000000;
+    margin-left: 15%;
+    letter-spacing: 1px;
     padding: 50px;
-}
+  }
 
-#album-image {
+  .album-info img {
+    width: 700px;
+    height: 700px;
+  }
+
+  .album-info h2 {
+    color: white;
+  }
+
+  .related-albums-container p {
+    color: white;
+  }
+
+  #related-albums {
+    display: flex;
+    justify-content: start;
+    gap: 50px;
+    text-align: center;
+    margin-top: 50px;
+  }
+
+  #related-albums img {
     width: 300px;
     height: 300px;
-    
-}
-
-#related-albums {
-  display: flex;
-  flex-direction: row;
-  justify-content: start;
-  gap: 50px;
-  text-align: center;
-
-}
-
-#related-albums img {
-  max-width: 200px;
-  max-height: 200px; 
-  margin-top: 30px;
-}
-
-#related-albums p {
-  text-decoration: none;
-  color: white;
-}
-
-.related-albums-container {
-  border-top: #fff;
-  border-style: solid;
-}
+  }
 
 @media (max-width: 768px) {
     .menu {
