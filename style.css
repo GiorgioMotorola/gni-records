@@ -7,7 +7,7 @@
     text-decoration: none;
     list-style: none;
     /* background-color: rgb(47, 45, 45); */
-    background-color: rgb(0, 0, 0);
+    background-color: #Eae7dc;
 }
 
 #navbar {
@@ -15,22 +15,29 @@
   align-items: center;
   justify-content: space-between;
   padding: 50px;
-  background-color: rgb(0, 0, 0);
+  background-color: #E85A4F;
   color: #fff;
 }
 
 .nav-links a {
   color: #fff;
+  background-color: #E85A4F;
 }
 
 .logo {
   font-size: 32px;
+  background-color: #E85A4F;
+}
+
+.menu {
+  background-color: #E85A4F;
 }
 
 .menu li{
   display: inline-block;
   position: relative;
-  color: #EBE114;
+  color: #D8C3A5;
+  background-color: #E85A4F;
 }
 
 .menu li::after {
@@ -41,7 +48,7 @@
   height: 2px;
   bottom: 0;
   left: 0;
-  background-color: #EBE114;
+  background-color: #000000;
   transform-origin: bottom right;
   transition: transform 0.25s ease-out;
 }
@@ -86,7 +93,7 @@ input[type=checkbox] {
     flex-direction: column;
     align-items: center;
     width: 280px;
-    background-color: black;
+    background-color: #8E8D8A;
     border-style: solid;
     border-color: #efefef;
     padding: 20px;
@@ -112,7 +119,7 @@ input[type=checkbox] {
 }
 
 .box:hover {
-    background-color: white;
+    background-color: #Eae7dc;
     border-style: .5px solid black;
     transform: scale(1.5);
 }
@@ -152,7 +159,7 @@ input[type=checkbox] {
 
 .hours ul {
     margin-bottom: 10px;
-    color: #a72a11;
+    color: #E85A4F;
     background-color: #efefef;
 }
 

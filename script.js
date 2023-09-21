@@ -8,9 +8,9 @@ fetch('data.json')
             listItem.className = 'box'; 
             listItem.innerHTML = `
                 <img src="${item.img}" alt="${item.name}">
-                <h4 style="color: #EBE114; margin-bottom: 40px;">${item.name}</h4>
+                <h4 style="color: #000000; margin-bottom: 40px;">${item.name}</h4>
                 <h4 style="color: white; margin-bottom: 20px;">${item.album}</h4>
-                <h4 style="color: grey !important; display: flex; align-items: flex-end;">${item.genre} ${"||"} ${item.price}</h4>
+                <h4 style="color: #E98074 !important; display: flex; align-items: flex-end;">${item.genre} ${"||"} ${item.price}</h4>
             `;
 
             listItem.addEventListener('click', () => {

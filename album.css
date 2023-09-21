@@ -9,85 +9,92 @@
 }
 
 body {
-    background-color: rgb(0, 0, 0);
+    background-color: #Eae7dc;
 }
 
- #navbar {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 50px;
-    background-color: rgb(0, 0, 0);
-    color: #fff;
-  }
-  
-  .nav-links a {
-    color: #fff;
-  }
-  
-  .logo {
-    font-size: 32px;
-  }
-  
-  .menu li{
-    display: inline-block;
-    position: relative;
-    color: #EBE114;
-  }
-  
-  .menu li::after {
-    content: '';
-    position: absolute;
-    width: 100%;
-    transform: scaleX(0);
-    height: 2px;
-    bottom: 0;
-    left: 0;
-    background-color: #EBE114;
-    transform-origin: bottom right;
-    transition: transform 0.25s ease-out;
-  }
-  
-  .menu li:hover:after {
-    transform: scaleX(1);
-    transform-origin: bottom left;
-  }
-  
-  .menu li {
-    padding: 5px 14px;
-  }
-  
+#navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 50px;
+  background-color: #E85A4F;
+  color: #fff;
+}
+
+.nav-links a {
+  color: #fff;
+  background-color: #E85A4F;
+}
+
+.logo {
+  font-size: 32px;
+  background-color: #E85A4F;
+}
+
+.menu {
+  background-color: #E85A4F;
+}
+
+.menu li{
+  display: inline-block;
+  position: relative;
+  color: #D8C3A5;
+  background-color: #E85A4F;
+}
+
+.menu li::after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #000000;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+
+.menu li:hover:after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+.menu li {
+  padding: 5px 14px;
+}
+
 
 input[type=checkbox] {
-    display: none;
-  } 
-  
+  display: none;
+} 
 
-  .hamburger {
-    display: none;
-    font-size: 24px;
-    user-select: none;
-  }
+
+.hamburger {
+  display: none;
+  font-size: 24px;
+  user-select: none;
+}
   
   /* body */
 
   .artist-album-container {
-    color: white;
+    color: black;
+    margin-left: 20px;
   }
 
   #artist-name {
-    color: #EBE114;
+    color: #E85A4F;
     font-size: 20px;
     margin-top: 10px;
   }
 
   .genre-price-year-container {
-    color: #c6c3c3;
+    color: black;
     display: flex;
     margin-top: 10px;
+    margin-left: 20px;
   }
-
-
 
   #album-year {
     display: none;
@@ -99,8 +106,8 @@ input[type=checkbox] {
   }
 
   #track-list {
-    color: white;
-    background-color: #000000;
+    color: #000000;
+    background-color: #D8C3A5;
     margin-left: 15%;
     letter-spacing: 1px;
     padding: 50px;
@@ -109,6 +116,7 @@ input[type=checkbox] {
   .album-info img {
     width: 700px;
     height: 700px;
+    margin-left: 20px;
   }
 
   .album-info h2 {
@@ -116,7 +124,7 @@ input[type=checkbox] {
   }
 
   .related-albums-container p {
-    color: white;
+    color: black;
   }
 
   #related-albums {
@@ -125,6 +133,7 @@ input[type=checkbox] {
     gap: 50px;
     text-align: center;
     margin-top: 50px;
+    margin-left: 20px;
   }
 
   #related-albums img {
