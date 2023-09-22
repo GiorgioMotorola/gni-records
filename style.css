@@ -246,5 +246,9 @@ input[type=checkbox] {
 
     .hours-container {
       margin-top: 300px;
+      width: 400px;
+      text-align: left;
+      margin-left: auto;
+      margin-right: auto;
     }
   }

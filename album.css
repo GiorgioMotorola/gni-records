@@ -141,7 +141,7 @@ input[type=checkbox] {
     height: 300px;
   }
 
-@media (max-width: 768px) {
+@media (max-width: 1350px) {
     .menu {
        display:none;
        position: absolute;
@@ -188,5 +188,33 @@ input[type=checkbox] {
   flex-direction: column;
 }
 
+.album-info #album-image {
+  width: 600px;
+  height: 600px;
+}
 
+.album-info #track-list {
+    width: 400px;
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
+}
+   }
+
+   @media (max-width: 480px) {
+    .album-info #track-list {
+      width: 400px;
+      text-align: left;
+      margin-left: auto;
+      margin-right: auto;
+  }
+
+  .album-info #album-image {
+    width: 400px;
+    height: 400px;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+}
    }
