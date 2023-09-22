@@ -1,15 +1,15 @@
 * {
-    margin: 0%;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Montserrat', sans-serif;
-    text-transform: uppercase;
-    text-decoration: none;
-    list-style: none;
+  margin: 0%;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+  text-transform: uppercase;
+  text-decoration: none;
+  list-style: none;
 }
 
 body {
-    background-color: #Eae7dc;
+  background-color: #eae7dc;
 }
 
 #navbar {
@@ -17,33 +17,33 @@ body {
   align-items: center;
   justify-content: space-between;
   padding: 50px;
-  background-color: #E85A4F;
+  background-color: #e85a4f;
   color: #fff;
 }
 
 .nav-links a {
   color: #fff;
-  background-color: #E85A4F;
+  background-color: #e85a4f;
 }
 
 .logo {
   font-size: 32px;
-  background-color: #E85A4F;
+  background-color: #e85a4f;
 }
 
 .menu {
-  background-color: #E85A4F;
+  background-color: #e85a4f;
 }
 
-.menu li{
+.menu li {
   display: inline-block;
   position: relative;
-  color: #D8C3A5;
-  background-color: #E85A4F;
+  color: #d8c3a5;
+  background-color: #e85a4f;
 }
 
 .menu li::after {
-  content: '';
+  content: "";
   position: absolute;
   width: 100%;
   transform: scaleX(0);
@@ -64,157 +64,157 @@ body {
   padding: 5px 14px;
 }
 
-
-input[type=checkbox] {
+input[type="checkbox"] {
   display: none;
-} 
-
+}
 
 .hamburger {
   display: none;
   font-size: 24px;
   user-select: none;
 }
-  
-  /* body */
 
-  .artist-album-container {
-    color: black;
-    margin-left: 20px;
-  }
+/* body */
 
-  #artist-name {
-    color: #E85A4F;
-    font-size: 20px;
-    margin-top: 10px;
-  }
+.artist-album-container {
+  color: black;
+  margin-left: 20px;
+}
 
-  .genre-price-year-container {
-    color: black;
-    display: flex;
-    margin-top: 10px;
-    margin-left: 20px;
-  }
+#artist-name {
+  color: #e85a4f;
+  font-size: 20px;
+  margin-top: 10px;
+}
 
-  #album-year {
-    display: none;
-  }
+.genre-price-year-container {
+  color: black;
+  display: flex;
+  margin-top: 10px;
+  margin-left: 20px;
+}
 
-  .album-info {
-    display: flex;
-    align-items: center;
-  }
-
-  #track-list {
-    color: #000000;
-    background-color: #D8C3A5;
-    margin-left: 15%;
-    letter-spacing: 1px;
-    padding: 50px;
-  }
-
-  .album-info img {
-    width: 700px;
-    height: 700px;
-    margin-left: 20px;
-  }
-
-  .album-info h2 {
-    color: white;
-  }
-
-  .related-albums-container p {
-    color: black;
-  }
-
-  #related-albums {
-    display: flex;
-    justify-content: start;
-    gap: 50px;
-    text-align: center;
-    margin-top: 50px;
-    margin-left: 20px;
-  }
-
-  #related-albums img {
-    width: 300px;
-    height: 300px;
-  }
-
-@media (max-width: 1350px) {
-    .menu {
-       display:none;
-       position: absolute;
-       background-color:#212123;
-       right: 0;
-       left: 0;
-       text-align: center;
-       padding: 16px 0;
-     }
-   
-     .menu li:hover {
-       display: inline-block;
-       background-color: #212123;
-       transition: 0.3s ease;
-     }
-   
-     .menu li + li {
-       margin-top: 12px;
-     }
-   
-     input[type=checkbox]:checked ~ .menu {
-       display: block;
-     }
-   
-     .hamburger {
-       display: block;
-     }
-   
-     .album-box {
-      display: flex;
-      justify-content: space-evenly;
-      flex-direction: column;
-     }
-
-  #artist-name, #album-name, #album-genre-price, #album-year {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
+#album-year {
+  display: none;
 }
 
 .album-info {
   display: flex;
+  align-items: center;
+}
+
+#track-list {
+  color: #000000;
+  background-color: #d8c3a5;
+  margin-left: 15%;
+  letter-spacing: 1px;
+  padding: 50px;
+}
+
+.album-info img {
+  width: 700px;
+  height: 700px;
+  margin-left: 20px;
+}
+
+.album-info h2 {
+  color: white;
+}
+
+.related-albums-container p {
+  color: black;
+}
+
+#related-albums {
+  display: flex;
   justify-content: start;
-  flex-direction: column;
+  gap: 50px;
+  text-align: center;
+  margin-top: 50px;
+  margin-left: 20px;
 }
 
-.album-info #album-image {
-  width: 600px;
-  height: 600px;
+#related-albums img {
+  width: 300px;
+  height: 300px;
 }
 
-.album-info #track-list {
+@media (max-width: 1350px) {
+  .menu {
+    display: none;
+    position: absolute;
+    background-color: #212123;
+    right: 0;
+    left: 0;
+    text-align: center;
+    padding: 16px 0;
+  }
+
+  .menu li:hover {
+    display: inline-block;
+    background-color: #212123;
+    transition: 0.3s ease;
+  }
+
+  .menu li + li {
+    margin-top: 12px;
+  }
+
+  input[type="checkbox"]:checked ~ .menu {
+    display: block;
+  }
+
+  .hamburger {
+    display: block;
+  }
+
+  .album-box {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+  }
+
+  #artist-name,
+  #album-name,
+  #album-genre-price,
+  #album-year {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .album-info {
+    display: flex;
+    justify-content: start;
+    flex-direction: column;
+  }
+
+  .album-info #album-image {
+    width: 600px;
+    height: 600px;
+  }
+
+  .album-info #track-list {
     width: 400px;
     text-align: left;
     margin-left: auto;
     margin-right: auto;
+  }
 }
-   }
 
-   @media (max-width: 480px) {
-    .album-info #track-list {
-      width: 400px;
-      text-align: left;
-      margin-left: auto;
-      margin-right: auto;
+@media (max-width: 480px) {
+  .album-info #track-list {
+    width: 400px;
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   .album-info #album-image {
     width: 400px;
     height: 400px;
     display: block;
-  margin-left: auto;
-  margin-right: auto;
-
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
-   }

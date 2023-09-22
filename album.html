@@ -1,47 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap" rel="stylesheet">    
-    <link rel="stylesheet" href="album.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="album.css" />
     <title>Document</title>
-</head>
-<body>
+  </head>
+  <body>
     <nav id="navbar">
-        <div class="logo">GNI RECORDS</div>
-        <ul class="nav-links">
-          <input type="checkbox" id="checkbox_toggle" />
-          <label for="checkbox_toggle" class="hamburger">&#9776;</label>
-          <div class="menu">
-            <li><a href="index.html">Home</a></li>
-            <li><a href="/">Stock</a></li>
-            <li><a href="/">Stop By</a></li>
-
-          </div>
-        </ul>
-      </nav>
-<div class="album-box">
-    <div class="artist-album-container">
+      <div class="logo">GNI RECORDS</div>
+      <ul class="nav-links">
+        <input type="checkbox" id="checkbox_toggle" />
+        <label for="checkbox_toggle" class="hamburger">&#9776;</label>
+        <div class="menu">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="/">Stock</a></li>
+          <li><a href="/">Stop By</a></li>
+        </div>
+      </ul>
+    </nav>
+    <div class="album-box">
+      <div class="artist-album-container">
         <h4 id="artist-name"></h4>
         <h4 id="album-name"></h4>
+      </div>
+      <div class="genre-price-year-container">
+        <h5 id="album-genre-price"></h5>
+        <h5 id="album-year"></h5>
+      </div>
+      <div class="album-info">
+        <img id="album-image" src="" alt="" />
+        <ul id="track-list"></ul>
+      </div>
     </div>
-    <div class="genre-price-year-container">
-      <h5 id="album-genre-price"></h5>
-      <h5 id="album-year"></h5>
-  </div>
-    <div class="album-info">
-            <img id="album-image" src="" alt="">
-            <ul id="track-list"></ul>
-    </div>    
-</div>
-<div class="related-albums-container">
-  <div id="related-albums"></div>
-</div>
+    <div class="related-albums-container">
+      <div id="related-albums"></div>
+    </div>
 
     <script src="albumScript.js"></script>
-
-</body>
+  </body>
 </html>

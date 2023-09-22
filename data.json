@@ -1,219 +1,223 @@
 [
-      {
-        "id": 1,
-        "img": "./img/mirrorreaper.jpg",
-        "name": "Bell Witch",
-        "album": "Mirror Reaper",
-        "genre": "Metal",
-        "price": "$19",
-        "year": "2017",
-        "tracks": ["1. Mirror Reaper - 1:23:15"]
-      },
+  {
+    "id": 1,
+    "img": "./img/mirrorreaper.jpg",
+    "name": "Bell Witch",
+    "album": "Mirror Reaper",
+    "genre": "Metal",
+    "price": "$19",
+    "year": "2017",
+    "tracks": ["1. Mirror Reaper - 1:23:15"]
+  },
 
-      {
-        "id": 2,
-        "img": "img/blacksaint.jpg",
-        "name": "Charles Mingus",
-        "album": "The Black Saint and the Sinner Lady",
-        "genre": "Jazz",
-        "price": "$25",
-        "year": "2018",
-        "tracks": ["1. Track A – Solo Dancer - 6:36",
-        "2. Track B – Duet Solo Dancers - 6:43",
-        "3. Track C – Group Dancers - 7:20",
-        "4. Mode D – Trio and Group Dancers - 18:37"]
-      },
+  {
+    "id": 2,
+    "img": "img/blacksaint.jpg",
+    "name": "Charles Mingus",
+    "album": "The Black Saint and the Sinner Lady",
+    "genre": "Jazz",
+    "price": "$25",
+    "year": "2018",
+    "tracks": [
+      "1. Track A – Solo Dancer - 6:36",
+      "2. Track B – Duet Solo Dancers - 6:43",
+      "3. Track C – Group Dancers - 7:20",
+      "4. Mode D – Trio and Group Dancers - 18:37"
+    ]
+  },
 
-      {
-        "id": 3,
-        "img": "img/forthoseofyou.jpg",
-        "name": "Huerco S.",
-        "album": "For Those Of You Who Have Never (And Also Those Who Have)",
-        "genre": "Ambient",
-        "price": "$24",
-        "year": "2019",
-        "tracks": [ "1. A Sea Of Love - 7:18",
-        "2. Lifeblood (Naïve Melody) - 8:13",
-        "3. Hear Me Out - 6:07",
-        "4. Kraanvogel - 5:39",
-        "5. On The Embankment - 5:57",
-        "6. Marked For Life - 3:41",
-        "7. Cubist Camouflage - 2:41",
-        "8. Promises Of Fertility - 6:56",
-        "9. The Sacred Dance - 6:07" ]
-      },
+  {
+    "id": 3,
+    "img": "img/forthoseofyou.jpg",
+    "name": "Huerco S.",
+    "album": "For Those Of You Who Have Never (And Also Those Who Have)",
+    "genre": "Ambient",
+    "price": "$24",
+    "year": "2019",
+    "tracks": [
+      "1. A Sea Of Love - 7:18",
+      "2. Lifeblood (Naïve Melody) - 8:13",
+      "3. Hear Me Out - 6:07",
+      "4. Kraanvogel - 5:39",
+      "5. On The Embankment - 5:57",
+      "6. Marked For Life - 3:41",
+      "7. Cubist Camouflage - 2:41",
+      "8. Promises Of Fertility - 6:56",
+      "9. The Sacred Dance - 6:07"
+    ]
+  },
 
-      {
-        "id": 4,
-        "img": "img/infamous.png",
-        "name": "Mobb Deep",
-        "album": "The Infamous",
-        "genre": "Hip Hop",
-        "price": "$22"
-      },
+  {
+    "id": 4,
+    "img": "img/infamous.png",
+    "name": "Mobb Deep",
+    "album": "The Infamous",
+    "genre": "Hip Hop",
+    "price": "$22"
+  },
 
-      {
-        "id": 5,
-        "img": "img/steadydiet.jpg",
-        "name": "Fugazi",
-        "album": "Steady Diet of Nothing",
-        "genre": "Post Punk",
-        "price": "$18"
-      },
+  {
+    "id": 5,
+    "img": "img/steadydiet.jpg",
+    "name": "Fugazi",
+    "album": "Steady Diet of Nothing",
+    "genre": "Post Punk",
+    "price": "$18"
+  },
 
-      {
-        "id": 6,
-        "img": "img/slowdive.jpg",
-        "name": "Slowdive",
-        "album": "Everything is Alive",
-        "genre": "Dream Pop",
-        "price": "$20"
-      },
+  {
+    "id": 6,
+    "img": "img/slowdive.jpg",
+    "name": "Slowdive",
+    "album": "Everything is Alive",
+    "genre": "Dream Pop",
+    "price": "$20"
+  },
 
-      {
-        "id": 7,
-        "img": "img/everything.jpg",
-        "name": "Everything Everything",
-        "album": "Get To Heaven",
-        "genre": "Art Pop",
-        "price": "$27"
-      },
+  {
+    "id": 7,
+    "img": "img/everything.jpg",
+    "name": "Everything Everything",
+    "album": "Get To Heaven",
+    "genre": "Art Pop",
+    "price": "$27"
+  },
 
-      {
-        "id": 8,
-        "img": "img/crj.png",
-        "name": "Carly Rae Jepsen",
-        "album": "E•MO•TION",
-        "genre": "Pop",
-        "price": "$26"
-      },
+  {
+    "id": 8,
+    "img": "img/crj.png",
+    "name": "Carly Rae Jepsen",
+    "album": "E•MO•TION",
+    "genre": "Pop",
+    "price": "$26"
+  },
 
-      {
-        "id": 9,
-        "img": "img/ugk.jpg",
-        "name": "UGK",
-        "album": "Ridin' Dirty",
-        "genre": "Hip Hop",
-        "price": "$28",
-        "year": "2019",
-        "tracks": [ "1. A Sea Of Love - 7:18",
-        "2. Lifeblood (Naïve Melody) - 8:13",
-        "3. Hear Me Out - 6:07",
-        "4. Kraanvogel - 5:39",
-        "5. On The Embankment - 5:57",
-        "6. Marked For Life - 3:41",
-        "7. Cubist Camouflage - 2:41",
-        "8. Promises Of Fertility - 6:56",
-        "9. The Sacred Dance - 6:07" ]   
-      },
-      
-      {
-        "id": 10,
-        "img": "img/pcl.jpg",
-        "name": "New Order",
-        "album": "Power, Corruption & Lies",
-        "genre": "New Wave",
-        "price": "$19"
-      },
+  {
+    "id": 9,
+    "img": "img/ugk.jpg",
+    "name": "UGK",
+    "album": "Ridin' Dirty",
+    "genre": "Hip Hop",
+    "price": "$28",
+    "year": "2019",
+    "tracks": [
+      "1. A Sea Of Love - 7:18",
+      "2. Lifeblood (Naïve Melody) - 8:13",
+      "3. Hear Me Out - 6:07",
+      "4. Kraanvogel - 5:39",
+      "5. On The Embankment - 5:57",
+      "6. Marked For Life - 3:41",
+      "7. Cubist Camouflage - 2:41",
+      "8. Promises Of Fertility - 6:56",
+      "9. The Sacred Dance - 6:07"
+    ]
+  },
 
-      {
-        "id": 11,
-        "img": "./img/scarface.jpg",
-        "name": "Scarface",
-        "album": "The Diary",
-        "genre": "Hip Hop",
-        "price": "$22"
-      },
+  {
+    "id": 10,
+    "img": "img/pcl.jpg",
+    "name": "New Order",
+    "album": "Power, Corruption & Lies",
+    "genre": "New Wave",
+    "price": "$19"
+  },
 
-      {
-        "id": 12,
-        "img": "img/remain.jpg",
-        "name": "Talking Heads",
-        "album": "Remain in Light",
-        "genre": "Post Punk",
-        "price": "$20"
-      },
+  {
+    "id": 11,
+    "img": "./img/scarface.jpg",
+    "name": "Scarface",
+    "album": "The Diary",
+    "genre": "Hip Hop",
+    "price": "$22"
+  },
 
-      {
-        "id": 13,
-        "img": "img/tusk.png",
-        "name": "Fleetwood Mac",
-        "album": "Tusk",
-        "genre": "Rock",
-        "price": "$21"
-      },
+  {
+    "id": 12,
+    "img": "img/remain.jpg",
+    "name": "Talking Heads",
+    "album": "Remain in Light",
+    "genre": "Post Punk",
+    "price": "$20"
+  },
 
-      {
-        "id": 14,
-        "img": "img/letitbe.jpg",
-        "name": "The Replacements",
-        "album": "Let It Be",
-        "genre": "Alt Rock",
-        "price": "$18"
-      },
+  {
+    "id": 13,
+    "img": "img/tusk.png",
+    "name": "Fleetwood Mac",
+    "album": "Tusk",
+    "genre": "Rock",
+    "price": "$21"
+  },
 
-      {
-        "id": 15,
-        "img": "img/pearl.jpg",
-        "name": "Brian Eno & Harold Budd",
-        "album": "The Pearl",
-        "genre": "Ambient",
-        "price": "$25"
-      },
+  {
+    "id": 14,
+    "img": "img/letitbe.jpg",
+    "name": "The Replacements",
+    "album": "Let It Be",
+    "genre": "Alt Rock",
+    "price": "$18"
+  },
 
-      {
-        "id": 16,
-        "img": "img/marquee.jpg",
-        "name": "Television",
-        "album": "Marquee Moon",
-        "genre": "Post Punk",
-        "price": "$18"
-      },
+  {
+    "id": 15,
+    "img": "img/pearl.jpg",
+    "name": "Brian Eno & Harold Budd",
+    "album": "The Pearl",
+    "genre": "Ambient",
+    "price": "$25"
+  },
 
-      {
-        "id": 17,
-        "img": "img/bigstar.jpg",
-        "name": "Big Star",
-        "album": "Radio City",
-        "genre": "Power Pop",
-        "price": "$20"
-      },
+  {
+    "id": 16,
+    "img": "img/marquee.jpg",
+    "name": "Television",
+    "album": "Marquee Moon",
+    "genre": "Post Punk",
+    "price": "$18"
+  },
 
-      {
-        "id": 18,
-        "img": "img/dds.jpg",
-        "name": "death's dynamic shroud",
-        "album": "VIRTUAL UTOPIA EXPERIENCE",
-        "genre": "Vaporwave",
-        "price": "$23"
-      },
+  {
+    "id": 17,
+    "img": "img/bigstar.jpg",
+    "name": "Big Star",
+    "album": "Radio City",
+    "genre": "Power Pop",
+    "price": "$20"
+  },
 
-      {
-        "id": 19,
-        "img": "img/milesdsilent.jpg",
-        "name": "Miles Davis",
-        "album": "In a Silent Way",
-        "genre": "Jazz",
-        "price": "$24"
-      },
+  {
+    "id": 18,
+    "img": "img/dds.jpg",
+    "name": "death's dynamic shroud",
+    "album": "VIRTUAL UTOPIA EXPERIENCE",
+    "genre": "Vaporwave",
+    "price": "$23"
+  },
 
-      {
-        "id": 20,
-        "img": "img/enforced.jpg",
-        "name": "Enforced",
-        "album": "War Remains",
-        "genre": "Metal",
-        "price": "$20"
-      },
+  {
+    "id": 19,
+    "img": "img/milesdsilent.jpg",
+    "name": "Miles Davis",
+    "album": "In a Silent Way",
+    "genre": "Jazz",
+    "price": "$24"
+  },
 
-      {
-        "id": 21,
-        "img": "img/mcphee.jpg",
-        "name": "Joe McPhee",
-        "album": "Nation Time",
-        "genre": "Jazz",
-        "price": "$25"
-      }
+  {
+    "id": 20,
+    "img": "img/enforced.jpg",
+    "name": "Enforced",
+    "album": "War Remains",
+    "genre": "Metal",
+    "price": "$20"
+  },
 
-
+  {
+    "id": 21,
+    "img": "img/mcphee.jpg",
+    "name": "Joe McPhee",
+    "album": "Nation Time",
+    "genre": "Jazz",
+    "price": "$25"
+  }
 ]
