@@ -233,3 +233,18 @@ input[type=checkbox] {
     }
   
   }
+
+  @media (max-width: 480px) {
+    .box {
+      max-width: 160px;
+      font-size: 10px;
+    }
+
+    .hours-container img {
+      display: none;
+    }
+
+    .hours-container {
+      margin-top: 300px;
+    }
+  }
