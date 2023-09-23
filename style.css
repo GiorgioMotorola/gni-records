@@ -19,6 +19,11 @@
   color: #fff;
 }
 
+.icon {
+  width: 50px;
+  vertical-align: middle;
+}
+
 .nav-links a {
   color: #fff;
   background-color: #e85a4f;
