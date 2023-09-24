@@ -6,76 +6,21 @@
   text-transform: uppercase;
   text-decoration: none;
   list-style: none;
-  /* background-color: rgb(47, 45, 45); */
   background-color: #eae7dc;
 }
 
-#navbar {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 50px;
-  background-color: #e85a4f;
-  color: #fff;
+body::-webkit-scrollbar {
+  width: 0.4rem;
 }
 
-.icon {
-  width: 50px;
-  vertical-align: middle;
+body::-webkit-scrollbar-track {
+  background: #1e1e24;
 }
 
-.nav-links a {
-  color: #fff;
-  background-color: #e85a4f;
+body::-webkit-scrollbar-thumb {
+  background: #e85a4f;
 }
 
-.logo {
-  font-size: 32px;
-  background-color: #e85a4f;
-}
-
-.menu {
-  background-color: #e85a4f;
-}
-
-.menu li {
-  display: inline-block;
-  position: relative;
-  color: #d8c3a5;
-  background-color: #e85a4f;
-}
-
-.menu li::after {
-  content: "";
-  position: absolute;
-  width: 100%;
-  transform: scaleX(0);
-  height: 2px;
-  bottom: 0;
-  left: 0;
-  background-color: #000000;
-  transform-origin: bottom right;
-  transition: transform 0.25s ease-out;
-}
-
-.menu li:hover:after {
-  transform: scaleX(1);
-  transform-origin: bottom left;
-}
-
-.menu li {
-  padding: 5px 14px;
-}
-
-input[type="checkbox"] {
-  display: none;
-}
-
-.hamburger {
-  display: none;
-  font-size: 24px;
-  user-select: none;
-}
 
 .banner img {
   width: 100%;
@@ -168,49 +113,15 @@ input[type="checkbox"] {
   background-color: #efefef;
 }
 
-input[type="checkbox"] {
-  display: none;
-}
-
-.hamburger {
-  display: none;
-  font-size: 24px;
-  user-select: none;
+footer {
+  background-color: #000000 !important;
+  color: #000000;
+  text-align: center;
+  padding: 10px 0;
 }
 
 @media (max-width: 768px) {
-  .menu {
-    display: none;
-    position: absolute;
-    background-color: #e85a4f;
-    right: 0;
-    left: 0;
-    text-align: center;
-    padding: 16px 0;
-  }
-
-  .menu li:hover {
-    display: inline-block;
-    background-color: #e85a4f;
-    transition: 0.3s ease;
-  }
-
-  .menu li + li {
-    margin-top: 12px;
-    background-color: #e85a4f;
-  }
-
-  input[type="checkbox"]:checked ~ .menu {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-  }
-
-  .hamburger {
-    display: block;
-    color: black;
-  }
-
+  
   .box {
     width: 220px;
     transition: background-color 0s, transform 0s;

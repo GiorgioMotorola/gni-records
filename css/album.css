@@ -12,71 +12,16 @@ body {
   background-color: #eae7dc;
 }
 
-#navbar {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 50px;
-  background-color: #e85a4f;
-  color: #fff;
+body::-webkit-scrollbar {
+  width: 0.4rem;
 }
 
-.icon {
-  width: 50px;
-  vertical-align: middle;
+body::-webkit-scrollbar-track {
+  background: #1e1e24;
 }
 
-.nav-links a {
-  color: #fff;
-  background-color: #e85a4f;
-}
-
-.logo {
-  font-size: 32px;
-  background-color: #e85a4f;
-}
-
-.menu {
-  background-color: #e85a4f;
-}
-
-.menu li {
-  display: inline-block;
-  position: relative;
-  color: #d8c3a5;
-  background-color: #e85a4f;
-}
-
-.menu li::after {
-  content: "";
-  position: absolute;
-  width: 100%;
-  transform: scaleX(0);
-  height: 2px;
-  bottom: 0;
-  left: 0;
-  background-color: #000000;
-  transform-origin: bottom right;
-  transition: transform 0.25s ease-out;
-}
-
-.menu li:hover:after {
-  transform: scaleX(1);
-  transform-origin: bottom left;
-}
-
-.menu li {
-  padding: 5px 14px;
-}
-
-input[type="checkbox"] {
-  display: none;
-}
-
-.hamburger {
-  display: none;
-  font-size: 24px;
-  user-select: none;
+body::-webkit-scrollbar-thumb {
+  background: #e85a4f;
 }
 
 /* body */
@@ -144,34 +89,8 @@ input[type="checkbox"] {
   height: 300px;
 }
 
+
 @media (max-width: 1350px) {
-  .menu {
-    display: none;
-    position: absolute;
-    background-color: #212123;
-    right: 0;
-    left: 0;
-    text-align: center;
-    padding: 16px 0;
-  }
-
-  .menu li:hover {
-    display: inline-block;
-    background-color: #212123;
-    transition: 0.3s ease;
-  }
-
-  .menu li + li {
-    margin-top: 12px;
-  }
-
-  input[type="checkbox"]:checked ~ .menu {
-    display: block;
-  }
-
-  .hamburger {
-    display: block;
-  }
 
   .album-box {
     display: flex;
