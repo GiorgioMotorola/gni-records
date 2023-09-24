@@ -20,7 +20,7 @@ function includeNavAndFooter() {
         >&#9776;</label
       >
       <div class="menu">
-        <li><a href="/">Home</a></li>
+        <li><a href="index.html">Home</a></li>
         <li><a href="/">Stock</a></li>
         <li><a href="/">Stop By</a></li>
       </div>
@@ -30,7 +30,7 @@ function includeNavAndFooter() {
 
   const footer = document.createElement("footer");
   footer.innerHTML = `       
-          <p>&copy; 2023 GNI Records.</p>
+          <h4>&copy; 2023 GNI Records.</h4>
       `;
 
   document.body.insertBefore(nav, document.body.firstChild);

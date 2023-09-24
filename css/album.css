@@ -24,8 +24,6 @@ body::-webkit-scrollbar-thumb {
   background: #e85a4f;
 }
 
-/* body */
-
 .artist-album-container {
   color: black;
   margin-left: 20px;
@@ -89,9 +87,7 @@ body::-webkit-scrollbar-thumb {
   height: 300px;
 }
 
-
 @media (max-width: 1350px) {
-
   .album-box {
     display: flex;
     justify-content: space-evenly;

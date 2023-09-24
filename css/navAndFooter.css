@@ -2,7 +2,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 50px;
+  padding: 30px;
   background-color: #e85a4f;
   color: #fff;
 }
@@ -10,6 +10,7 @@
 .icon {
   width: 50px;
   vertical-align: middle;
+  margin-top: -15px;
 }
 
 .nav-links a {
@@ -66,11 +67,15 @@ input[type="checkbox"] {
 }
 
 footer {
-    background-color: #000000 !important;
-    color: #fff;
-    text-align: center;
-    padding: 10px 0;
-  }
+  background-color: #000000 !important;
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+}
+
+footer h4 {
+  background-color: #000000;
+}
 
 @media (max-width: 768px) {
   .menu {

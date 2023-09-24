@@ -21,7 +21,6 @@ body::-webkit-scrollbar-thumb {
   background: #e85a4f;
 }
 
-
 .banner img {
   width: 100%;
   height: auto;
@@ -121,7 +120,6 @@ footer {
 }
 
 @media (max-width: 768px) {
-  
   .box {
     width: 220px;
     transition: background-color 0s, transform 0s;
