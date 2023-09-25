@@ -124,6 +124,10 @@ body::-webkit-scrollbar-thumb {
   margin-top: 100px;
 }
 
+.hours-container h1 {
+  background-color: #efefef;
+}
+
 .hours-container img {
   width: 100%;
   height: auto;
@@ -171,7 +175,7 @@ footer {
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 840px) {
   .box {
     width: 220px;
     transition: background-color 0s, transform 0s;
@@ -205,10 +209,14 @@ footer {
   }
 }
 
-@media (max-width: 480px) {
+@media (max-width: 840px) {
   .box {
     max-width: 160px;
     font-size: 10px;
+  }
+
+  .jazz-fest-container {
+    margin-bottom: 300px;
   }
 
   .hours-container img {
@@ -216,10 +224,11 @@ footer {
   }
 
   .hours-container {
+    height: 100%;
+    width: auto; 
+  }
+
+  footer {
     margin-top: 300px;
-    width: 400px;
-    text-align: left;
-    margin-left: auto;
-    margin-right: auto;
   }
 }
